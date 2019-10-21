@@ -82,7 +82,7 @@ namespace MultipleChoice2
                 else if (textBoxEmail.Text != Lecturers["Emily.com"] || textBoxPassword.Text != Lecturers["Cat"])
                 {
                     label3.Show();
-                    label3.Text = "Email or password is incorrect!";
+                    label3.Text = "Email or pssword is incorrect!";
                 }
 
 
