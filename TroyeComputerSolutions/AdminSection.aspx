@@ -100,12 +100,13 @@
      <a href="#Dashboard" class="active" onclick="openOption(event, 'Home')">Troye</a>
      <a href="#Dashboard" class="tablinks" id="defaultOpen" onclick="openOption(event, 'Dashboard')">Dashboard</a>
      <a href="#Employees" class="tablinks"  onclick="openOption(event, 'Employees')">Employees</a>
-     <a href="#Register" class="tablinks" onclick="openOption(event, 'Register')">Register</a>
+     <a href="Register.aspx" class="tablinks" onclick="openOption(event, 'Register')">Register</a>
      <a href="CreateProject.aspx" class="tablinks" onclick="openOption(event, 'Projects')">Projects</a>
 
        </div>
          <div id="Dashboard" class="tabcontent" style="width:900px;height: 1570px;margin-top: 90px; margin-left: 290px;  margin-bottom: 15px; background-color:#FFFFFF;">
              <h1>DASHBOARD </h1>
+             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
          </div>
          <div  style="width:200px;margin-top: 5px; margin-left: 290px;  margin-bottom: 5px;">
            <h1>Register New Employees Below </h1></div>
@@ -136,7 +137,7 @@
 <h1>Skills </h1>
     <hr />
 
-<asp:Label ID="Label13" runat="server" Text="Skills"></asp:Label><input name="Name" type="text" placeholder="UX Designer" style="margin-top:2%; background-color:transparent; width:50%; height: 5%; border-top-color:transparent; border-left-color:transparent; border-left-width:thin; border-left-style:solid; border-right-color:transparent;border-bottom-color:#000000; border-bottom-width:thin; margin-left: 26%; " id="txtUsername"/>
+<asp:Label ID="Label13" runat="server" Text="Skills"></asp:Label><input name="Name" type="text" placeholder="UX Designer" style="margin-top:2%; background-color:transparent; width:50%; height: 5%; border-top-color:transparent; border-left-color:transparent; border-left-width:thin; border-left-style:solid; border-right-color:transparent;border-bottom-color:#000000; border-bottom-width:thin; margin-left: 26%; " id="txtSkills"/>
 <br />
 <asp:Label ID="Label14" runat="server" Text="Years"></asp:Label><input name="Password1" type="number"   style="margin-top:2%;width :50%; height: 5%; background-color:transparent; border-top-color:transparent;border-left-color:transparent; border-left-style:solid; border-left-width:thin; border-right-color:transparent;border-bottom-color:#000000; border-bottom-width:thin; margin-left: 26%; "/>
 <br />
@@ -151,7 +152,7 @@
 <br />
 <asp:Label ID="Label11" runat="server" Text="Confirm"></asp:Label><input name="Confirm" type="password"  style="margin-top:2%;width :50%; height: 5%; background-color:transparent; border-top-color:transparent;border-left-color:transparent; border-left-style:solid; border-left-width:thin; border-right-color:transparent;border-bottom-color:#000000; border-bottom-width:thin; margin-left: 26%; "/>
 <br/>
-<button  onclick="btnRegister_Click" style="margin-top:10%; border-width: thin; margin-left: 39%; width :24%; height: 50px; background-color:#000000; border-style:solid; border-width:thin; font-family:'Century Gothic'; color:#ffffff; outline-color: #000000; border-radius:25px; margin-bottom:20px;" id="btnRegister ">Register</button>
+<%-- <asp:Button runat="server" Text="Rgister" OnClick="btnRegister_Click" style="margin-top:10%; border-width: thin; margin-left: 39%; width :24%; height: 50px; background-color:#000000; border-style:solid; border-width:thin; font-family:'Century Gothic'; color:#ffffff; outline-color: #000000; border-radius:25px; margin-bottom:20px;" id="btnRegister "/>--%>
 
         </div>
       
