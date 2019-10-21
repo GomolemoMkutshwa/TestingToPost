@@ -1,0 +1,98 @@
+﻿<Window x:Class="MultipleChoiceTask2.Memorandum"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultipleChoiceTask2"
+        mc:Ignorable="d"
+        Title="Memorandum" Height="573.799" Width="632.751">
+    <Grid>
+        <Label x:Name="label" Content="Question 1" HorizontalAlignment="Left" Margin="36,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Question 2" HorizontalAlignment="Left" Margin="36,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Question 3" HorizontalAlignment="Left" Margin="36,129,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="Question 4" HorizontalAlignment="Left" Margin="36,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Question 5" HorizontalAlignment="Left" Margin="36,190,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy4" Content="Question 6" HorizontalAlignment="Left" Margin="36,221,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy5" Content="Question 7" HorizontalAlignment="Left" Margin="36,251,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy6" Content="Question 8" HorizontalAlignment="Left" Margin="36,286,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy7" Content="Question 9" HorizontalAlignment="Left" Margin="36,317,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy8" Content="Question 10" HorizontalAlignment="Left" Margin="36,351,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy9" Content="Student Answers" HorizontalAlignment="Left" Margin="148,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy20" Content="Correct Answers" HorizontalAlignment="Left" Margin="389,25,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="126,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="126,254,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="126,289,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="126,320,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" Margin="126,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="23" Margin="126,220,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy5" HorizontalAlignment="Left" Height="23" Margin="126,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Height="23" Margin="126,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Height="23" Margin="126,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Height="23" Margin="126,101,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy10" Content="Question 1" HorizontalAlignment="Left" Margin="36,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy11" Content="Question 2" HorizontalAlignment="Left" Margin="36,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy12" Content="Question 3" HorizontalAlignment="Left" Margin="36,129,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy13" Content="Question 4" HorizontalAlignment="Left" Margin="36,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy14" Content="Question 5" HorizontalAlignment="Left" Margin="36,190,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy15" Content="Question 6" HorizontalAlignment="Left" Margin="36,221,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy16" Content="Question 7" HorizontalAlignment="Left" Margin="36,251,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy17" Content="Question 8" HorizontalAlignment="Left" Margin="36,286,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy18" Content="Question 9" HorizontalAlignment="Left" Margin="36,317,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy19" Content="Question 10" HorizontalAlignment="Left" Margin="36,351,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy21" Content="Student Answers" HorizontalAlignment="Left" Margin="148,26,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbxQ1" HorizontalAlignment="Left" Height="23" Margin="126,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ7" HorizontalAlignment="Left" Height="23" Margin="126,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ8" HorizontalAlignment="Left" Height="23" Margin="126,289,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ9" HorizontalAlignment="Left" Height="23" Margin="126,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ10" HorizontalAlignment="Left" Height="23" Margin="126,355,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ6" HorizontalAlignment="Left" Height="23" Margin="126,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ5" HorizontalAlignment="Left" Height="23" Margin="126,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ4" HorizontalAlignment="Left" Height="23" Margin="126,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ3" HorizontalAlignment="Left" Height="23" Margin="126,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxQ2" HorizontalAlignment="Left" Height="23" Margin="126,101,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy22" Content="Question 1" HorizontalAlignment="Left" Margin="369,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy23" Content="Question 2" HorizontalAlignment="Left" Margin="369,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy24" Content="Question 3" HorizontalAlignment="Left" Margin="369,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy25" Content="Question 4" HorizontalAlignment="Left" Margin="369,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy26" Content="Question 5" HorizontalAlignment="Left" Margin="369,193,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy27" Content="Question 6" HorizontalAlignment="Left" Margin="369,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy28" Content="Question 7" HorizontalAlignment="Left" Margin="369,254,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy29" Content="Question 8" HorizontalAlignment="Left" Margin="369,289,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy30" Content="Question 9" HorizontalAlignment="Left" Margin="369,320,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy31" Content="Question 10" HorizontalAlignment="Left" Margin="369,354,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy19" HorizontalAlignment="Left" Height="23" Margin="459,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy20" HorizontalAlignment="Left" Height="23" Margin="459,257,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy21" HorizontalAlignment="Left" Height="23" Margin="459,292,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy22" HorizontalAlignment="Left" Height="23" Margin="459,323,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy23" HorizontalAlignment="Left" Height="23" Margin="459,358,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy24" HorizontalAlignment="Left" Height="23" Margin="459,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy25" HorizontalAlignment="Left" Height="23" Margin="459,193,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy26" HorizontalAlignment="Left" Height="23" Margin="459,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy27" HorizontalAlignment="Left" Height="23" Margin="459,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_Copy28" HorizontalAlignment="Left" Height="23" Margin="459,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy33" Content="Question 1" HorizontalAlignment="Left" Margin="369,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy34" Content="Question 2" HorizontalAlignment="Left" Margin="369,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy35" Content="Question 3" HorizontalAlignment="Left" Margin="369,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy36" Content="Question 4" HorizontalAlignment="Left" Margin="369,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy37" Content="Question 5" HorizontalAlignment="Left" Margin="369,193,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy38" Content="Question 6" HorizontalAlignment="Left" Margin="369,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy39" Content="Question 7" HorizontalAlignment="Left" Margin="369,254,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy40" Content="Question 8" HorizontalAlignment="Left" Margin="369,289,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy41" Content="Question 9" HorizontalAlignment="Left" Margin="369,320,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy42" Content="Question 10" HorizontalAlignment="Left" Margin="369,354,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbxA1" HorizontalAlignment="Left" Height="23" Margin="459,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA7" HorizontalAlignment="Left" Height="23" Margin="459,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA8" HorizontalAlignment="Left" Height="23" Margin="459,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA9" HorizontalAlignment="Left" Height="23" Margin="459,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA10" HorizontalAlignment="Left" Height="23" Margin="459,358,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA6" HorizontalAlignment="Left" Height="23" Margin="459,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA5" HorizontalAlignment="Left" Height="23" Margin="459,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA4" HorizontalAlignment="Left" Height="23" Margin="459,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA3" HorizontalAlignment="Left" Height="23" Margin="459,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbxA2" HorizontalAlignment="Left" Height="23" Margin="459,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnMyAnswers" Content="My Answers" HorizontalAlignment="Left" Margin="126,411,0,0" VerticalAlignment="Top" Width="75" Click="btnMyAnswers_Click"/>
+        <Button x:Name="btnAnswers" Content="Answers" HorizontalAlignment="Left" Margin="459,416,0,0" VerticalAlignment="Top" Width="75" Click="btnAnswers_Click"/>
+        <Button x:Name="btnReport" Content="Report" HorizontalAlignment="Left" Margin="296,477,0,0" VerticalAlignment="Top" Width="75" Click="btnReport_Click"/>
+
+    </Grid>
+</Window>
