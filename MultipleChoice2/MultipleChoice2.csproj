@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD50607D-6D93-47C3-BA13-664D5092C942}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MultipleChoice2</RootNamespace>
+    <AssemblyName>MultipleChoice2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DoneDLL">
+      <HintPath>..\..\DoneDLL\DoneDLL\bin\Debug\DoneDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Register">
+      <HintPath>..\..\Register\Register\bin\Debug\Register.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TakingTheTest">
+      <HintPath>..\..\TakingTheTest\TakingTheTest\bin\Debug\TakingTheTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreateQuestion10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion10.Designer.cs">
+      <DependentUpon>CreateQuestion10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestions.Designer.cs">
+      <DependentUpon>CreateQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion3.Designer.cs">
+      <DependentUpon>CreateQuestion3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion4.Designer.cs">
+      <DependentUpon>CreateQuestion4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion5.Designer.cs">
+      <DependentUpon>CreateQuestion5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion6.Designer.cs">
+      <DependentUpon>CreateQuestion6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion7.Designer.cs">
+      <DependentUpon>CreateQuestion7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion8.Designer.cs">
+      <DependentUpon>CreateQuestion8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateQuestion9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateQuestion9.Designer.cs">
+      <DependentUpon>CreateQuestion9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTest.Designer.cs">
+      <DependentUpon>CreateTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Done.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Done.Designer.cs">
+      <DependentUpon>Done.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Memorandum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Memorandum.Designer.cs">
+      <DependentUpon>Memorandum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgAssignmentTask12BDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgAssignmentTask12BDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question10.Designer.cs">
+      <DependentUpon>Question10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakingTheTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakingTheTest.Designer.cs">
+      <DependentUpon>TakingTheTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question3.Designer.cs">
+      <DependentUpon>Question3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question4.Designer.cs">
+      <DependentUpon>Question4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question5.Designer.cs">
+      <DependentUpon>Question5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question6.Designer.cs">
+      <DependentUpon>Question6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question7.Designer.cs">
+      <DependentUpon>Question7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question8.Designer.cs">
+      <DependentUpon>Question8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question9.Designer.cs">
+      <DependentUpon>Question9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeTest.Designer.cs">
+      <DependentUpon>TakeTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextTemplate1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMarks.Designer.cs">
+      <DependentUpon>ViewMarks.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CreateQuestion10.resx">
+      <DependentUpon>CreateQuestion10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestions.resx">
+      <DependentUpon>CreateQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion3.resx">
+      <DependentUpon>CreateQuestion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion4.resx">
+      <DependentUpon>CreateQuestion4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion5.resx">
+      <DependentUpon>CreateQuestion5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion6.resx">
+      <DependentUpon>CreateQuestion6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion7.resx">
+      <DependentUpon>CreateQuestion7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion8.resx">
+      <DependentUpon>CreateQuestion8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateQuestion9.resx">
+      <DependentUpon>CreateQuestion9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTest.resx">
+      <DependentUpon>CreateTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Done.resx">
+      <DependentUpon>Done.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memorandum.resx">
+      <DependentUpon>Memorandum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Question10.resx">
+      <DependentUpon>Question10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakingTheTest.resx">
+      <DependentUpon>TakingTheTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question3.resx">
+      <DependentUpon>Question3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question5.resx">
+      <DependentUpon>Question5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question6.resx">
+      <DependentUpon>Question6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question7.resx">
+      <DependentUpon>Question7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question8.resx">
+      <DependentUpon>Question8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question9.resx">
+      <DependentUpon>Question9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeTest.resx">
+      <DependentUpon>TakeTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMarks.resx">
+      <DependentUpon>ViewMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ProgAssignmentTask12BDataSet.xsc">
+      <DependentUpon>ProgAssignmentTask12BDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProgAssignmentTask12BDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProgAssignmentTask12BDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProgAssignmentTask12BDataSet.xss">
+      <DependentUpon>ProgAssignmentTask12BDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ombre.jpg" />
+    <None Include="Resources\ombre1.jpg" />
+    <Content Include="TextTemplate1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
