@@ -38,7 +38,7 @@ namespace MultipleChoiceTask2
             txbxQue.Text = kk.Rows[0][1].ToString();
             txbxA.Text = kk.Rows[0][2].ToString();
             txbxB.Text = kk.Rows[0][3].ToString();
-            txbxC.Text = kk.Rows[0][4].ToString();
+            txbxB.Text = kk.Rows[0][4].ToString();
         }
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
